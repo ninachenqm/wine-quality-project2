@@ -1,0 +1,97 @@
+{
+  "model": "Decision Tree",
+  "problem": "red",
+  "part": "B",
+  "hyperparameter": "max_depth",
+  "values_tested": [
+    "1",
+    "2",
+    "3",
+    "5",
+    "8",
+    "12",
+    "None"
+  ],
+  "best_value": "None",
+  "best_cv_f1": 0.42971835500369304,
+  "best_cv_accuracy": 0.8430311140849783,
+  "cv_table": [
+    {
+      "max_depth": "1",
+      "f1_mean": 0.0,
+      "f1_std": 0.0,
+      "accuracy_mean": 0.8642689862830378,
+      "accuracy_std": 0.001542136775334358,
+      "fit_time_mean_s": 0.012560653686523437
+    },
+    {
+      "max_depth": "2",
+      "f1_mean": 0.2663653846153846,
+      "f1_std": 0.21797617059381874,
+      "accuracy_mean": 0.8708096353295417,
+      "accuracy_std": 0.009164209969074192,
+      "fit_time_mean_s": 0.005911111831665039
+    },
+    {
+      "max_depth": "3",
+      "f1_mean": 0.3460766789978507,
+      "f1_std": 0.09585823443726771,
+      "accuracy_mean": 0.8667313482770156,
+      "accuracy_std": 0.015998430882298863,
+      "fit_time_mean_s": 0.00997767448425293
+    },
+    {
+      "max_depth": "5",
+      "f1_mean": 0.38414377289377294,
+      "f1_std": 0.09552224051756578,
+      "accuracy_mean": 0.8659083305453329,
+      "accuracy_std": 0.01217212054382408,
+      "fit_time_mean_s": 0.0044994354248046875
+    },
+    {
+      "max_depth": "8",
+      "f1_mean": 0.4068245200136369,
+      "f1_std": 0.07573231897369828,
+      "accuracy_mean": 0.8511977249916359,
+      "accuracy_std": 0.015770777672168,
+      "fit_time_mean_s": 0.004601192474365234
+    },
+    {
+      "max_depth": "12",
+      "f1_mean": 0.39710767002587194,
+      "f1_std": 0.1119395888203974,
+      "accuracy_mean": 0.8397724991635999,
+      "accuracy_std": 0.023389412777687288,
+      "fit_time_mean_s": 0.007507610321044922
+    },
+    {
+      "max_depth": NaN,
+      "f1_mean": 0.42971835500369304,
+      "f1_std": 0.07976235531446672,
+      "accuracy_mean": 0.8430311140849783,
+      "accuracy_std": 0.018224802626813478,
+      "fit_time_mean_s": 0.005807161331176758
+    }
+  ],
+  "train_time_s": 0.006366957997670397,
+  "test_time_s": 0.0006969999958528206,
+  "train_accuracy": 1.0,
+  "train_f1": 1.0,
+  "val_accuracy": 0.8308823529411765,
+  "val_balanced_accuracy": 0.6200564971751412,
+  "val_precision": 0.35294117647058826,
+  "val_recall": 0.3333333333333333,
+  "val_f1": 0.34285714285714286,
+  "val_confusion_matrix [[TN, FP], [FN, TP]]": [
+    [
+      107,
+      11
+    ],
+    [
+      12,
+      6
+    ]
+  ],
+  "n_train": 1223,
+  "n_val": 136
+}

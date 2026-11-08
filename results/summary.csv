@@ -1,0 +1,5 @@
+part,problem,model,hyperparameter,best_value,best_cv_f1,val_accuracy,val_balanced_accuracy,val_precision,val_recall,val_f1,train_time_s,test_time_s
+B,red,Logistic Regression,C,10,0.4198,0.8603,0.5899,0.4444,0.2222,0.2963,0.0072,0.0008
+B,white,Logistic Regression,C,100,0.3967,0.8438,0.693,0.7059,0.4337,0.5373,0.006,0.0005
+C,red,Logistic Regression,C,1,0.3783,0.8603,0.5899,0.4444,0.2222,0.2963,0.0031,0.0006
+C,white,Logistic Regression,C,10,0.3272,0.8338,0.6512,0.7179,0.3373,0.459,0.0048,0.0006
